@@ -1,0 +1,13 @@
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-body {
+    background-color: rgba(2, 110, 26, 0.795);
+}
