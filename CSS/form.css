@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 2.5rem;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 1.75rem;
+}
+
+[type=text], [type=email], [type=tel], [name=message] {
+    margin-left: 10px;
+}
+
+[type=radio], [for=news-letter] {
+    margin-right: 10px;
+}
+
+[type=submit], [type=reset] {
+    padding: 10px;
+    margin: 10px;
+}
